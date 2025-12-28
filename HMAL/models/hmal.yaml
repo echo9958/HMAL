@@ -1,0 +1,10 @@
+# Placeholder config for HMAL detector.
+# The Python implementation lives in models/hmal.py; this file exists
+# so CLI flags expecting a YAML path continue to work.
+nc: 3
+ch: 6
+anchors:
+  - [10, 13, 16, 30, 33, 23]
+  - [30, 61, 62, 45, 59, 119]
+  - [116, 90, 156, 198, 373, 326]
+description: Hierarchical Modality-Advantage Learning detector with triple-stream encoder and advantage-guided fusion.
